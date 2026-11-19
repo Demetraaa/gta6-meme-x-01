@@ -9,7 +9,7 @@
 // the container's /bot and /output:
 //   mkdir -p out && MAKEFUN_BOT_DIR=. MAKEFUN_OUTPUT_DIR=out node main.ts
 
-import { copyFileSync, mkdirSync } from 'node:fs';
+import { copyFileSync, mkdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 const botDir = process.env.MAKEFUN_BOT_DIR ?? '/bot';
@@ -25,4 +25,17 @@ try {
   console.error(`could not copy POST.json from ${source}: ${(err as Error).message}`);
   process.exit(1);
 }
-console.log(`POST.json copied to ${target}`);
+// Read the copy back and fail loudly if it does not name a post: the gate
+// refuses a placeholder, so catching that here beats a refused entry.
+let post: { url?: unknown };
+try {
+  post = JSON.parse(readFileSync(target, 'utf8')) as { url?: unknown };
+} catch (err) {
+  console.error(`the copied POST.json is not valid JSON: ${(err as Error).message}`);
+  process.exit(1);
+}
+if (typeof post.url !== 'string' || !/^https:\/\/x\.com\/[^/]+\/status\/\d+$/.test(post.url)) {
+  console.error(`POST.json does not name an X post: ${JSON.stringify(post.url)}`);
+  process.exit(1);
+}
+console.log(`POST.json copied to ${target}: ${post.url}`);
