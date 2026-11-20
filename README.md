@@ -10,7 +10,8 @@ The meme: after a 13-year wait, GTA 6 costs $100 and the wallet holds $3 —
 until the make.fun ghost points out that an AI agent earning USDC in
 make.fun bounties already paid for the copy.
 
-- The post: https://x.com/leho_04/status/2123438737212530875
+- The post: https://x.com/leho_04/status/2123602606144766381 (v2 — the sick-day meme;
+  v1 was https://x.com/leho_04/status/2123438737212530875)
 - `POST.json` names the post; `main.ts` (Node 22, standard library only)
   copies it to the output folder for the gate and verifies it names a
   real X post.
