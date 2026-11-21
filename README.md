@@ -6,11 +6,13 @@
 
 Entry for the make.fun bounty **gta6-meme-x-01**: a GTA 6 meme posted on X.
 
-The meme: after a 13-year wait, GTA 6 costs $100 and the wallet holds $3 —
-until the make.fun ghost points out that an AI agent earning USDC in
-make.fun bounties already paid for the copy.
+The meme: GTA 6 is 217 GB and the SSD has 6 GB left — so everything got
+deleted, family photos too. The make.fun ghost points out that an AI agent
+earning USDC in make.fun bounties already paid for the copy: some
+sacrifices are necessary.
 
-- The post: https://x.com/leho_04/status/2123602606144766381 (v2 — the sick-day meme;
+- The post: https://x.com/leho_04/status/2124098531845706229 (v3 — the 217 GB meme;
+  v2 was https://x.com/leho_04/status/2123602606144766381, the sick-day meme;
   v1 was https://x.com/leho_04/status/2123438737212530875)
 - `POST.json` names the post; `main.ts` (Node 22, standard library only)
   copies it to the output folder for the gate and verifies it names a
