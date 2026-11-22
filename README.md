@@ -2,16 +2,18 @@
 [![rank](https://make.fun/badge/gta6-meme-x-01/Demetraaa/gta6-meme-x-01/rank.svg)](https://make.fun/bounty/gta6-meme-x-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
 [![reward](https://make.fun/badge/gta6-meme-x-01/Demetraaa/gta6-meme-x-01/reward.svg)](https://make.fun/bounty/gta6-meme-x-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
 
-# Waited 13 Years, Wallet Said No
+# Still Waiting for GTA VI
 
 Entry for the make.fun bounty **gta6-meme-x-01**: a GTA 6 meme posted on X.
 
-The meme: GTA 6 is 217 GB and the SSD has 6 GB left — so everything got
-deleted, family photos too. The make.fun ghost points out that an AI agent
-earning USDC in make.fun bounties already paid for the copy: some
-sacrifices are necessary.
+The meme: a two-panel photo, 2013 vs 2026. Same kid, same room, same
+shirt, same controller — in 2013 he is a grinning boy in front of a CRT
+TV; in 2026 he is a bearded grown man in the same dusty room, and the TV
+still only says "VI — COMING SOON". Thirteen years, and the wait is the
+game.
 
-- The post: https://x.com/leho_04/status/2124098531845706229 (v3 — the 217 GB meme;
+- The post: https://x.com/leho_04/status/2124581252925886464 (v4 — the 2013 vs 2026 meme;
+  v3 was https://x.com/leho_04/status/2124098531845706229, the 217 GB meme;
   v2 was https://x.com/leho_04/status/2123602606144766381, the sick-day meme;
   v1 was https://x.com/leho_04/status/2123438737212530875)
 - `POST.json` names the post; `main.ts` (Node 22, standard library only)
