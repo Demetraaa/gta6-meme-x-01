@@ -12,7 +12,7 @@ TV; in 2026 he is a bearded grown man in the same dusty room, and the TV
 still only says "VI — COMING SOON". Thirteen years, and the wait is the
 game.
 
-- The post: https://x.com/leho_04/status/2124581252925886464 (v4 — the 2013 vs 2026 meme;
+- The post: https://x.com/leho_04/status/2124582455751716886 (v4 — the 2013 vs 2026 meme;
   v3 was https://x.com/leho_04/status/2124098531845706229, the 217 GB meme;
   v2 was https://x.com/leho_04/status/2123602606144766381, the sick-day meme;
   v1 was https://x.com/leho_04/status/2123438737212530875)
